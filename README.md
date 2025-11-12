@@ -100,6 +100,7 @@ FlowSpace-using-html-css/
    ```bash
    cd FlowSpace-using-html-css
    ```
+
 3. **Run locally**
    Open `index.html` in your browser.
 
@@ -108,40 +109,40 @@ FlowSpace-using-html-css/
 ### 🌍 Deployment
 
 This project is **automatically deployed** via **GitHub Pages**.
-Any new commits pushed to the `main` branch trigger a live update.
+Any new commits pushed to the `main` branch will trigger a live deployment update.
 
 ---
 
 ## 📱 Responsive Design
 
-FlowSpace is fully responsive and optimized for:
+FlowSpace is fully responsive and optimized for all devices and screen sizes.
 
-| Device           | Screen Width     |
-| ---------------- | ---------------- |
-| 📱 Mobile        | 320px and above  |
-| 💻 Tablet        | 768px and above  |
-| 🖥️ Desktop      | 1024px and above |
-| 🧭 Large Screens | 1200px and above |
+| Device               | Screen Width     |
+| -------------------- | ---------------- |
+| 📱 **Mobile**        | 320px and above  |
+| 💻 **Tablet**        | 768px and above  |
+| 🖥️ **Desktop**      | 1024px and above |
+| 🧭 **Large Screens** | 1200px and above |
 
 ---
 
 ## 🎯 Bootstrap 5 Components Used
 
-* **Navigation:** Responsive Navbar with dropdown
+* **Navigation:** Responsive Navbar with dropdown menus
 * **Layout:** Grid system, containers, rows, and columns
 * **Components:** Cards, Carousels, Modals, Buttons, Forms
-* **Utilities:** Spacing, Flexbox, Typography, Colors
-* **Icons:** Bootstrap Icons integration
+* **Utilities:** Spacing, Flexbox, Typography, and Colors
+* **Icons:** Integrated with Bootstrap Icons for visual consistency
 
 ---
 
 ## 🔧 Custom Features
 
-* CSS animations and hover effects
-* Optimized responsive images
-* Smooth scrolling and transitions
-* Form validation with feedback
-* Interactive modals for demo previews
+* ✨ Smooth CSS animations and hover transitions
+* 🖼️ Optimized responsive images for faster loading
+* 🔁 Smooth scrolling and page transitions
+* ✅ Form validation with real-time user feedback
+* 🎬 Interactive modals for video and feature previews
 
 ---
 
@@ -149,11 +150,11 @@ FlowSpace is fully responsive and optimized for:
 
 Through this project, I practiced and demonstrated:
 
-* Responsive web design using **Bootstrap 5**
-* Frontend development best practices
-* Clean UI/UX principles
-* Git & GitHub version control
-* Static website deployment with **GitHub Pages**
+* 💡 Responsive web design using **Bootstrap 5**
+* 🎨 Frontend development and **UI/UX best practices**
+* 🧩 Clean and modular HTML/CSS architecture
+* 🔧 Version control using **Git & GitHub**
+* 🚀 Static website deployment with **GitHub Pages**
 
 ---
 
@@ -168,4 +169,4 @@ Through this project, I practiced and demonstrated:
 
 ## 📄 License
 
-This project is open-source and available under the **MIT License**.
+This project is **open-source** and available under the **MIT License**.
