@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowSpace - Modern Project Management</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <i class="bi bi-kanban-fill me-2"></i>FlowSpace
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-outline-primary me-2">Sign In</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-primary text-white py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Streamline Your Team's Workflow</h1>
+                    <p class="lead mb-4">FlowSpace brings all your tasks, teammates, and tools together in one place. Plan, track, and deliver your team's best work.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <button class="btn btn-light btn-lg px-4" data-bs-toggle="modal" data-bs-target="#signupModal">Start Free Trial</button>
+                        <button class="btn btn-outline-light btn-lg px-4" data-bs-toggle="modal" data-bs-target="#demoModal">
+                            <i class="bi bi-play-circle me-2"></i>Watch Demo
+                        </button>
+                    </div>
+                    <div class="mt-4">
+                        <div class="d-flex align-items-center text-light">
+                            <div class="me-4">
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <span class="ms-1">4.9/5</span>
+                            </div>
+                            <span>Trusted by 10,000+ teams</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image mt-5 mt-lg-0">
+                        <div class="bg-light rounded-3 p-3 text-dark shadow-lg">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" 
+                                 alt="FlowSpace Dashboard" 
+                                 class="img-fluid rounded-2"
+                                 loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Why Teams Love FlowSpace</h2>
+                <p class="text-muted lead">Everything you need to manage projects efficiently</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card feature-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-primary bg-opacity-10 rounded-3 d-inline-flex align-items-center justify-content-center mb-3" 
+                                 style="width: 80px; height: 80px;">
+                                <i class="bi bi-kanban text-primary fs-2"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Visual Boards</h5>
+                            <p class="card-text text-muted">Drag and drop tasks across customizable workflows that match your process.</p>
+                            <a href="about.html" class="btn btn-link text-primary text-decoration-none p-0">
+                                Learn more <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-success bg-opacity-10 rounded-3 d-inline-flex align-items-center justify-content-center mb-3" 
+                                 style="width: 80px; height: 80px;">
+                                <i class="bi bi-graph-up text-success fs-2"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Smart Analytics</h5>
+                            <p class="card-text text-muted">Gain insights into your team's performance with detailed reports and metrics.</p>
+                            <a href="about.html" class="btn btn-link text-primary text-decoration-none p-0">
+                                Learn more <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon bg-warning bg-opacity-10 rounded-3 d-inline-flex align-items-center justify-content-center mb-3" 
+                                 style="width: 80px; height: 80px;">
+                                <i class="bi bi-shield-check text-warning fs-2"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Enterprise Security</h5>
+                            <p class="card-text text-muted">Bank-level security to keep your data safe with advanced privacy controls.</p>
+                            <a href="about.html" class="btn btn-link text-primary text-decoration-none p-0">
+                                Learn more <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Trusted by Innovative Teams</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card border-0 bg-white text-center p-5 mx-3">
+                                    <div class="card-body">
+                                        <div class="text-warning mb-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p class="card-text lead mb-4">"FlowSpace transformed how our remote team collaborates. We've seen a 40% increase in productivity since implementation."</p>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100&q=80" 
+                                                 alt="Sarah Chen" 
+                                                 class="rounded-circle me-3"
+                                                 style="width: 60px; height: 60px; object-fit: cover;">
+                                            <div class="text-start">
+                                                <h6 class="mb-0 fw-bold">Sarah Chen</h6>
+                                                <small class="text-muted">CTO, TechInnovate</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card border-0 bg-white text-center p-5 mx-3">
+                                    <div class="card-body">
+                                        <div class="text-warning mb-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p class="card-text lead mb-4">"The intuitive interface and powerful features made onboarding our team seamless. Customer support is exceptional."</p>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100&q=80" 
+                                                 alt="Marcus Johnson" 
+                                                 class="rounded-circle me-3"
+                                                 style="width: 60px; height: 60px; object-fit: cover;">
+                                            <div class="text-start">
+                                                <h6 class="mb-0 fw-bold">Marcus Johnson</h6>
+                                                <small class="text-muted">Product Manager, GrowthLabs</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-primary rounded-circle p-2"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-primary rounded-circle p-2"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center py-5">
+            <h2 class="fw-bold mb-3">Ready to Transform Your Workflow?</h2>
+            <p class="lead mb-4">Join thousands of teams already using FlowSpace to do their best work.</p>
+            <button class="btn btn-light btn-lg px-5 me-3" data-bs-toggle="modal" data-bs-target="#signupModal">Start Your Free Trial</button>
+            <button class="btn btn-outline-light btn-lg px-5" data-bs-toggle="modal" data-bs-target="#demoModal">
+                <i class="bi bi-play-circle me-2"></i>Watch Demo
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-kanban-fill me-2"></i>FlowSpace
+                    </h5>
+                    <p class="text-muted">Modern project management for modern teams. Streamline your workflow and boost productivity.</p>
+                    <div class="d-flex gap-3 mt-4">
+                        <a href="#" class="text-muted"><i class="bi bi-twitter fs-5"></i></a>
+                        <a href="#" class="text-muted"><i class="bi bi-linkedin fs-5"></i></a>
+                        <a href="#" class="text-muted"><i class="bi bi-github fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h6 class="fw-bold">Product</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-muted text-decoration-none">Features</a></li>
+                        <li><a href="about.html#pricing" class="text-muted text-decoration-none">Pricing</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Security</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h6 class="fw-bold">Company</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-muted text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Blog</a></li>
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold">Legal</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none">Privacy</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Terms</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold">Support</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Help Center</a></li>
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Contact Us</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">&copy; 2024 FlowSpace. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted mb-0">Made with <i class="bi bi-heart-fill text-danger"></i> for better teamwork</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Video Modal -->
+    <div class="modal fade" id="demoModal" tabindex="-1" aria-labelledby="demoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="demoModalLabel">FlowSpace Product Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <video id="demoVideo" controls poster="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80">
+                            <source src="https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-flowers-1173-large.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal" data-bs-dismiss="modal">Start Free Trial</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="signupModalLabel">Start Your Free Trial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="signupForm">
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="workEmail" class="form-label">Work Email</label>
+                            <input type="email" class="form-control" id="workEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="companyName" class="form-label">Company Name</label>
+                            <input type="text" class="form-control" id="companyName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                            <label class="form-check-label" for="agreeTerms">
+                                I agree to the <a href="#" class="text-decoration-none">Terms of Service</a> and <a href="#" class="text-decoration-none">Privacy Policy</a>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 py-2">Start Free Trial</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <small class="text-muted">Already have an account? <a href="#" class="text-decoration-none">Sign in</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Handle video pause when modal is closed
+        const demoModal = document.getElementById('demoModal');
+        const demoVideo = document.getElementById('demoVideo');
+
+        demoModal.addEventListener('hidden.bs.modal', function () {
+            demoVideo.pause();
+        });
+
+        // Handle signup form submission
+        document.getElementById('signupForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Here you would typically send the data to your server
+            alert('Thank you for signing up! Your free trial has started.');
+            const modal = bootstrap.Modal.getInstance(document.getElementById('signupModal'));
+            modal.hide();
+            this.reset();
+        });
+    </script>
+</body>
+</html>

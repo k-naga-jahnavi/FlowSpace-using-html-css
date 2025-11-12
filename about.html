@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - FlowSpace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <i class="bi bi-kanban-fill me-2"></i>FlowSpace
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-outline-primary me-2">Sign In</a>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-primary text-white py-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-5 fw-bold mb-3">Powerful Features for Modern Teams</h1>
+                    <p class="lead">Discover how FlowSpace can transform your project management and team collaboration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Features -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Kanban Boards Feature -->
+            <div class="row align-items-center mb-5 py-4">
+                <div class="col-lg-6">
+                    <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" 
+                         alt="Flexible Kanban Boards" 
+                         class="img-fluid rounded-3 shadow-lg"
+                         loading="lazy">
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <span class="badge bg-primary mb-3">Core Feature</span>
+                    <h2 class="fw-bold mb-4">Flexible Kanban Boards</h2>
+                    <p class="text-muted mb-4">Visualize your workflow with customizable boards that adapt to your team's process. Drag and drop tasks between columns to track progress intuitively.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>Customizable workflows</strong>
+                                <p class="text-muted mb-0 small">Tailor boards to match your exact process with custom columns and statuses</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>WIP limits</strong>
+                                <p class="text-muted mb-0 small">Set work-in-progress limits to prevent bottlenecks and maintain flow</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>Automated task assignment</strong>
+                                <p class="text-muted mb-0 small">Automatically assign tasks based on workload and team capacity</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>Real-time updates</strong>
+                                <p class="text-muted mb-0 small">See changes instantly across your entire team with live synchronization</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#demoModal">
+                        <i class="bi bi-play-circle me-2"></i>Watch Demo
+                    </button>
+                    <a href="contact.html" class="btn btn-outline-primary">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Analytics Feature -->
+            <div class="row align-items-center mb-5 py-4 flex-lg-row-reverse">
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" 
+                         alt="Comprehensive Analytics" 
+                         class="img-fluid rounded-3 shadow-lg"
+                         loading="lazy">
+                </div>
+                <div class="col-lg-6 pe-lg-5">
+                    <span class="badge bg-success mb-3">Advanced Analytics</span>
+                    <h2 class="fw-bold mb-4">Comprehensive Analytics</h2>
+                    <p class="text-muted mb-4">Make data-driven decisions with detailed reports and visualizations. Track team velocity, identify bottlenecks, and optimize your workflow.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>Burndown charts</strong>
+                                <p class="text-muted mb-0 small">Track progress against deadlines with intuitive burndown visualizations</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>Cycle time analysis</strong>
+                                <p class="text-muted mb-0 small">Measure how long tasks spend in each stage of your workflow</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>Custom report builder</strong>
+                                <p class="text-muted mb-0 small">Create custom reports with drag-and-drop interface and multiple visualization options</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>Export to PDF/Excel</strong>
+                                <p class="text-muted mb-0 small">Share insights with stakeholders through professional exports</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="btn btn-success me-3" data-bs-toggle="modal" data-bs-target="#demoModal">
+                        <i class="bi bi-graph-up me-2"></i>View Analytics Demo
+                    </button>
+                    <a href="contact.html" class="btn btn-outline-success">Try Analytics</a>
+                </div>
+            </div>
+
+            <!-- Team Collaboration Feature -->
+            <div class="row align-items-center py-4">
+                <div class="col-lg-6">
+                    <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" 
+                         alt="Team Collaboration" 
+                         class="img-fluid rounded-3 shadow-lg"
+                         loading="lazy">
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <span class="badge bg-purple mb-3">Team Collaboration</span>
+                    <h2 class="fw-bold mb-4">Seamless Team Collaboration</h2>
+                    <p class="text-muted mb-4">Keep everyone on the same page with built-in communication tools. Comment on tasks, mention teammates, and share files effortlessly.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>In-task comments</strong>
+                                <p class="text-muted mb-0 small">Discuss tasks directly where work happens with threaded conversations</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>File attachments</strong>
+                                <p class="text-muted mb-0 small">Attach documents, images, and files directly to tasks with version control</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>@mentions & notifications</strong>
+                                <p class="text-muted mb-0 small">Get teammates' attention with @mentions and customizable notifications</p>
+                            </div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
+                            <div>
+                                <strong>Integration with Slack & Teams</strong>
+                                <p class="text-muted mb-0 small">Connect with your favorite communication tools for seamless workflow</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="btn btn-purple me-3" data-bs-toggle="modal" data-bs-target="#demoModal">
+                        <i class="bi bi-people-fill me-2"></i>Collaboration Demo
+                    </button>
+                    <a href="contact.html" class="btn btn-outline-purple">Start Collaborating</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="bg-light py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Simple, Transparent Pricing</h2>
+                <p class="text-muted">Choose the plan that works best for your team</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm pricing-card">
+                        <div class="card-body p-4 text-center">
+                            <h5 class="card-title fw-bold">Starter</h5>
+                            <div class="price display-4 fw-bold text-primary mb-2">$0</div>
+                            <p class="text-muted mb-4">Perfect for small teams getting started</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Up to 5 users</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Basic boards & cards</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>2GB storage</li>
+                                <li class="mb-3 text-muted"><i class="bi bi-x-circle me-2"></i>Advanced analytics</li>
+                                <li class="mb-3 text-muted"><i class="bi bi-x-circle me-2"></i>Custom workflows</li>
+                                <li class="mb-3 text-muted"><i class="bi bi-x-circle me-2"></i>Priority support</li>
+                            </ul>
+                            <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#signupModal">Get Started Free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-lg pricing-card popular">
+                        <div class="card-body p-4 text-center position-relative">
+                            <span class="badge bg-primary position-absolute top-0 start-50 translate-middle px-3 py-2">Most Popular</span>
+                            <h5 class="card-title fw-bold">Professional</h5>
+                            <div class="price display-4 fw-bold text-primary mb-2">$12</div>
+                            <p class="text-muted mb-1">per user/month</p>
+                            <p class="text-muted mb-4">Billed annually or $15 month-to-month</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Unlimited users</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Advanced boards & automation</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>100GB storage</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Full analytics suite</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Custom workflows</li>
+                                <li class="mb-3 text-muted"><i class="bi bi-x-circle me-2"></i>Dedicated support</li>
+                            </ul>
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#signupModal">Start Free Trial</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm pricing-card">
+                        <div class="card-body p-4 text-center">
+                            <h5 class="card-title fw-bold">Enterprise</h5>
+                            <div class="price display-4 fw-bold text-primary mb-2">$25</div>
+                            <p class="text-muted mb-1">per user/month</p>
+                            <p class="text-muted mb-4">Billed annually - custom plans available</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Unlimited everything</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Advanced security & compliance</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>1TB+ storage</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Custom analytics & API</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>White-label solutions</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2"></i>Dedicated support & SLAs</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-outline-primary w-100">Contact Sales</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="text-muted">All plans include 14-day free trial. No credit card required.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-kanban-fill me-2"></i>FlowSpace
+                    </h5>
+                    <p class="text-muted">Modern project management for modern teams. Streamline your workflow and boost productivity.</p>
+                    <div class="d-flex gap-3 mt-4">
+                        <a href="#" class="text-muted"><i class="bi bi-twitter fs-5"></i></a>
+                        <a href="#" class="text-muted"><i class="bi bi-linkedin fs-5"></i></a>
+                        <a href="#" class="text-muted"><i class="bi bi-github fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h6 class="fw-bold">Product</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-muted text-decoration-none">Features</a></li>
+                        <li><a href="about.html#pricing" class="text-muted text-decoration-none">Pricing</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Security</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h6 class="fw-bold">Company</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-muted text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Blog</a></li>
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold">Legal</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none">Privacy</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Terms</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="fw-bold">Support</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Help Center</a></li>
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Contact Us</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">&copy; 2024 FlowSpace. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted mb-0">Made with <i class="bi bi-heart-fill text-danger"></i> for better teamwork</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include the same modals from index.html -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
