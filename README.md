@@ -1,10 +1,3 @@
-Sure! ✅
-Here’s your **ready-to-upload `README.md` file content** — formatted perfectly for GitHub.
-You can **copy and paste** it directly into your repository.
-
----
-
-```markdown
 # 🚀 FlowSpace - Modern Project Management Platform
 
 ![FlowSpace Banner](https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&w=1200)
